@@ -55,7 +55,7 @@ if (window.matchMedia("(min-width:600px").matches) {
     function hoverout5() {
         document.getElementById("list5").style.borderBottom = "";
     }
-
+}
     // Open the Modal
     function openModal() {
         document.getElementById("myModal").style.display = "block";
@@ -113,7 +113,7 @@ if (window.matchMedia("(min-width:600px").matches) {
     function p4() {
         document.getElementById("big").src = "images\/image-product-4.jpg"
     }
-}
+
 var val = 0;
 
 document.getElementById("inp").innerText = val;
