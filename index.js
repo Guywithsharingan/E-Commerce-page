@@ -14,48 +14,48 @@ function hidecartlist() {
     document.getElementById("cartt").style.display = "none";
 }
 
+if (window.matchMedia("(min-width:600px").matches) {
+    function hoverin1() {
+      document.getElementById("list1").style.borderBottom = "2px solid hsl(26, 100%, 55%) ";
+    } 
 
-function hoverin1() {
-    document.getElementById("list1").style.borderBottom = "2px solid hsl(26, 100%, 55%) ";
+    function hoverout1() {
+       document.getElementById("list1").style.borderBottom = "";
+    }
+
+    function hoverin2() {
+       document.getElementById("list2").style.borderBottom = "2px solid hsl(26, 100%, 55%) ";
+    }
+
+    function hoverout2() {
+       document.getElementById("list2").style.borderBottom = "";
+    }
+
+    function hoverin3() {
+       document.getElementById("list3").style.borderBottom = "2px solid hsl(26, 100%, 55%) ";
+    }
+
+   function
+    hoverout3() {
+       document.getElementById("list3").style.borderBottom = "";
+    }
+
+    function hoverin4() {
+       document.getElementById("list4").style.borderBottom = "2px solid hsl(26, 100%, 55%) ";
+    }
+
+    function hoverout4() {
+       document.getElementById("list4").style.borderBottom = "";
+    }
+
+    function hoverin5() {
+       document.getElementById("list5").style.borderBottom = "2px solid hsl(26, 100%, 55%)";
+    }
+
+    function hoverout5() {
+       document.getElementById("list5").style.borderBottom = "";
+    }
 }
-
-function hoverout1() {
-    document.getElementById("list1").style.borderBottom = "";
-}
-
-function hoverin2() {
-    document.getElementById("list2").style.borderBottom = "2px solid hsl(26, 100%, 55%) ";
-}
-
-function hoverout2() {
-    document.getElementById("list2").style.borderBottom = "";
-}
-
-function hoverin3() {
-    document.getElementById("list3").style.borderBottom = "2px solid hsl(26, 100%, 55%) ";
-}
-
-function
-hoverout3() {
-    document.getElementById("list3").style.borderBottom = "";
-}
-
-function hoverin4() {
-    document.getElementById("list4").style.borderBottom = "2px solid hsl(26, 100%, 55%) ";
-}
-
-function hoverout4() {
-    document.getElementById("list4").style.borderBottom = "";
-}
-
-function hoverin5() {
-    document.getElementById("list5").style.borderBottom = "2px solid hsl(26, 100%, 55%)";
-}
-
-function hoverout5() {
-    document.getElementById("list5").style.borderBottom = "";
-}
-
 // Open the Modal
 function openModal() {
     document.getElementById("myModal").style.display = "block";
