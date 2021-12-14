@@ -1,11 +1,11 @@
 @font-face {
     font-family: KumbhSans-Regular;
-    src: url(fonts/ttf/KumbhSans-Regular.ttf);
+    src: url(KumbhSans-Regular.ttf);
 }
 
 @font-face {
     font-family: KumbhSans-Bold;
-    src: url(fonts/ttf/KumbhSans-Bold.ttf);
+    src: url(KumbhSans-Bold.ttf);
 }
 
 body {
